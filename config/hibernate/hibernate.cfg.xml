@@ -1,0 +1,11 @@
+<hibernate-configuration>
+    <session-factory>
+        <property name="hibernate.connection.driver_class">oracle.jdbc.driver.OracleDriver</property>
+        <property name="hibernate.connection.url">jdbc:oracle:thin:@10.112.251.36:1524/DBG129</property>
+        <property name="username">U234_DEV_6300</property>
+        <property name="password">U234_DEV_6300</property>
+        <property name="hibernate.dialect">org.hibernate.dialect.OracleDialect</property>
+        <property name="show_sql">true</property>
+        <property name="hibernate.connection.pool_size">5</property>
+    </session-factory>
+</hibernate-configuration>
